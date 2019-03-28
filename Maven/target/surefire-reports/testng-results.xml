@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Hello Hazim Div]]>
+    </line>
+    <line>
+      <![CDATA[Hello Hazim Multi]]>
+    </line>
+    <line>
+      <![CDATA[Hello Hazim SUM]]>
+    </line>
+    <line>
+      <![CDATA[Hello Hazim Min]]>
+    </line>
+    <line>
+      <![CDATA[Haz Finish]]>
+    </line>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="49" started-at="2019-03-23T14:11:50Z" finished-at="2019-03-23T14:11:50Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="49" started-at="2019-03-23T14:11:50Z" finished-at="2019-03-23T14:11:50Z">
+      <class name="Elemnus.BasicTest">
+        <test-method status="PASS" signature="Sum()[pri:0, instance:Elemnus.BasicTest@7f690630]" name="Sum" duration-ms="14" started-at="2019-03-23T16:11:50Z" finished-at="2019-03-23T16:11:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Hello Hazim SUM]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Sum -->
+        <test-method status="PASS" signature="Divide()[pri:0, instance:Elemnus.BasicTest@7f690630]" name="Divide" duration-ms="14" started-at="2019-03-23T16:11:50Z" finished-at="2019-03-23T16:11:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Hello Hazim Div]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Divide -->
+        <test-method status="PASS" signature="Minus()[pri:0, instance:Elemnus.BasicTest@7f690630]" name="Minus" duration-ms="14" started-at="2019-03-23T16:11:50Z" finished-at="2019-03-23T16:11:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Hello Hazim Min]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Minus -->
+        <test-method status="PASS" signature="Multi()[pri:0, instance:Elemnus.BasicTest@7f690630]" name="Multi" duration-ms="14" started-at="2019-03-23T16:11:50Z" finished-at="2019-03-23T16:11:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Hello Hazim Multi]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Multi -->
+        <test-method status="PASS" signature="RunMyTest()[pri:0, instance:Elemnus.BasicTest@7f690630]" name="RunMyTest" is-config="true" duration-ms="0" started-at="2019-03-23T16:11:50Z" finished-at="2019-03-23T16:11:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Haz Finish]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- RunMyTest -->
+      </class> <!-- Elemnus.BasicTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
